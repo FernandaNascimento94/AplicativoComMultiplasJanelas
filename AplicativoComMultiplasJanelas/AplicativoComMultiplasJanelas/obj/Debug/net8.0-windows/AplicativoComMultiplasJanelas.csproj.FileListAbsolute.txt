@@ -1,0 +1,17 @@
+C:\Users\izaqu\source\repos\AplicativoComMultiplasJanelas\AplicativoComMultiplasJanelas\bin\Debug\net8.0-windows\AplicativoComMultiplasJanelas.exe
+C:\Users\izaqu\source\repos\AplicativoComMultiplasJanelas\AplicativoComMultiplasJanelas\bin\Debug\net8.0-windows\AplicativoComMultiplasJanelas.deps.json
+C:\Users\izaqu\source\repos\AplicativoComMultiplasJanelas\AplicativoComMultiplasJanelas\bin\Debug\net8.0-windows\AplicativoComMultiplasJanelas.runtimeconfig.json
+C:\Users\izaqu\source\repos\AplicativoComMultiplasJanelas\AplicativoComMultiplasJanelas\bin\Debug\net8.0-windows\AplicativoComMultiplasJanelas.dll
+C:\Users\izaqu\source\repos\AplicativoComMultiplasJanelas\AplicativoComMultiplasJanelas\bin\Debug\net8.0-windows\AplicativoComMultiplasJanelas.pdb
+C:\Users\izaqu\source\repos\AplicativoComMultiplasJanelas\AplicativoComMultiplasJanelas\obj\Debug\net8.0-windows\AplicativoComMultiplasJanelas.Form1.resources
+C:\Users\izaqu\source\repos\AplicativoComMultiplasJanelas\AplicativoComMultiplasJanelas\obj\Debug\net8.0-windows\AplicativoComMultiplasJanelas.FormNovoProduto.resources
+C:\Users\izaqu\source\repos\AplicativoComMultiplasJanelas\AplicativoComMultiplasJanelas\obj\Debug\net8.0-windows\AplicativoComMultiplasJanelas.csproj.GenerateResource.cache
+C:\Users\izaqu\source\repos\AplicativoComMultiplasJanelas\AplicativoComMultiplasJanelas\obj\Debug\net8.0-windows\AplicativoComMultiplasJanelas.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\izaqu\source\repos\AplicativoComMultiplasJanelas\AplicativoComMultiplasJanelas\obj\Debug\net8.0-windows\AplicativoComMultiplasJanelas.AssemblyInfoInputs.cache
+C:\Users\izaqu\source\repos\AplicativoComMultiplasJanelas\AplicativoComMultiplasJanelas\obj\Debug\net8.0-windows\AplicativoComMultiplasJanelas.AssemblyInfo.cs
+C:\Users\izaqu\source\repos\AplicativoComMultiplasJanelas\AplicativoComMultiplasJanelas\obj\Debug\net8.0-windows\AplicativoComMultiplasJanelas.csproj.CoreCompileInputs.cache
+C:\Users\izaqu\source\repos\AplicativoComMultiplasJanelas\AplicativoComMultiplasJanelas\obj\Debug\net8.0-windows\AplicativoComMultiplasJanelas.dll
+C:\Users\izaqu\source\repos\AplicativoComMultiplasJanelas\AplicativoComMultiplasJanelas\obj\Debug\net8.0-windows\refint\AplicativoComMultiplasJanelas.dll
+C:\Users\izaqu\source\repos\AplicativoComMultiplasJanelas\AplicativoComMultiplasJanelas\obj\Debug\net8.0-windows\AplicativoComMultiplasJanelas.pdb
+C:\Users\izaqu\source\repos\AplicativoComMultiplasJanelas\AplicativoComMultiplasJanelas\obj\Debug\net8.0-windows\AplicativoComMultiplasJanelas.genruntimeconfig.cache
+C:\Users\izaqu\source\repos\AplicativoComMultiplasJanelas\AplicativoComMultiplasJanelas\obj\Debug\net8.0-windows\ref\AplicativoComMultiplasJanelas.dll
