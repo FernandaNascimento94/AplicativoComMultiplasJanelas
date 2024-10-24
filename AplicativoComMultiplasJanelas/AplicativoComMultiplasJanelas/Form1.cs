@@ -1,10 +1,15 @@
+using System.ComponentModel;
+using static System.Net.WebRequestMethods;
+
 namespace AplicativoComMultiplasJanelas
 {
     public partial class Form1 : Form
     {
+        private BindingList<Produto> Produtos = new BindingList<Produto>();
         public Form1()
         {
             InitializeComponent();
+            this.dataGridView1.DataSource = Produtos;
         }
 
         private void buttonAdicionarProduto_Click(object sender, EventArgs e)
@@ -13,18 +18,28 @@ namespace AplicativoComMultiplasJanelas
             DialogResult resultado = fnp.ShowDialog();
             if (resultado == DialogResult.OK)
             {
-                string textProduto = $"{fnp.Nome}-{fnp.Fabricante}(R${fnp.PrecoCompra})(R${fnp.PrecoVenda})";
-                listBoxProdutos.Items.Add(textProduto);
+                Produto produto = new Produto();
+
+                if (Produtos.Count == 0) produto.Id = 1;
+                else produto.Id = Produtos.Max(x => x.Id) + 1;
+
+                produto.Nome = fnp.Nome;
+                produto.Fabricante = fnp.Fabricante;
+                produto.PrecoVenda = fnp.PrecoVenda;
+                produto.PrecoCompra = fnp.PrecoCompra;
+
+                Produtos.Add(produto);
+
             }
         }
 
         private void buttonDeletarProduto_Click(object sender, EventArgs e)
         {
-            if (listBoxProdutos.Items.Count > 0) 
+            if (dataGridView1.DataSource == Produtos) 
             {
-                if (listBoxProdutos.SelectedIndex >= 0) 
+                if (dataGridView1.SelectedRows.Count > 0) 
                 {
-                    listBoxProdutos.Items.RemoveAt(listBoxProdutos.SelectedIndex);
+                    Produtos.RemoveAt(dataGridView1.SelectedRows[0].Index);
                 }
             }
         }

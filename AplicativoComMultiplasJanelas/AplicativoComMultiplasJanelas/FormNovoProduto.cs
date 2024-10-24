@@ -1,21 +1,11 @@
-﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Windows.Forms;
-
-namespace AplicativoComMultiplasJanelas
+﻿namespace AplicativoComMultiplasJanelas
 {
     public partial class FormNovoProduto : Form
     {
         public string Nome { get { return textBoxNome.Text; } }
         public string Fabricante { get {  return textBoxFabricante.Text; } }
-        public string PrecoCompra { get { return numericUpDownPrecoCompra.Text; } }
-        public string PrecoVenda { get { return numericUpDownPrecoVenda.Text; } }
+        public decimal PrecoCompra { get { return numericUpDownPrecoCompra.Value; } }
+        public decimal PrecoVenda { get { return numericUpDownPrecoVenda.Value; } }
 
         public FormNovoProduto()
         {

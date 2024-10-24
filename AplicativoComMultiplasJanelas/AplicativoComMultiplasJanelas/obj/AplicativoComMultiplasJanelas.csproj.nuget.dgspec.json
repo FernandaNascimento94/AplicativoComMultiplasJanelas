@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\izaqu\\source\\repos\\AplicativoComMultiplasJanelas\\AplicativoComMultiplasJanelas\\AplicativoComMultiplasJanelas.csproj": {}
+    "C:\\Users\\izaqu\\Desktop\\C#\\AplicativoComMultiplasJanelas\\AplicativoComMultiplasJanelas\\AplicativoComMultiplasJanelas.csproj": {}
   },
   "projects": {
-    "C:\\Users\\izaqu\\source\\repos\\AplicativoComMultiplasJanelas\\AplicativoComMultiplasJanelas\\AplicativoComMultiplasJanelas.csproj": {
+    "C:\\Users\\izaqu\\Desktop\\C#\\AplicativoComMultiplasJanelas\\AplicativoComMultiplasJanelas\\AplicativoComMultiplasJanelas.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\izaqu\\source\\repos\\AplicativoComMultiplasJanelas\\AplicativoComMultiplasJanelas\\AplicativoComMultiplasJanelas.csproj",
+        "projectUniqueName": "C:\\Users\\izaqu\\Desktop\\C#\\AplicativoComMultiplasJanelas\\AplicativoComMultiplasJanelas\\AplicativoComMultiplasJanelas.csproj",
         "projectName": "AplicativoComMultiplasJanelas",
-        "projectPath": "C:\\Users\\izaqu\\source\\repos\\AplicativoComMultiplasJanelas\\AplicativoComMultiplasJanelas\\AplicativoComMultiplasJanelas.csproj",
+        "projectPath": "C:\\Users\\izaqu\\Desktop\\C#\\AplicativoComMultiplasJanelas\\AplicativoComMultiplasJanelas\\AplicativoComMultiplasJanelas.csproj",
         "packagesPath": "C:\\Users\\izaqu\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\izaqu\\source\\repos\\AplicativoComMultiplasJanelas\\AplicativoComMultiplasJanelas\\obj\\",
+        "outputPath": "C:\\Users\\izaqu\\Desktop\\C#\\AplicativoComMultiplasJanelas\\AplicativoComMultiplasJanelas\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\izaqu\\AppData\\Roaming\\NuGet\\NuGet.Config",
