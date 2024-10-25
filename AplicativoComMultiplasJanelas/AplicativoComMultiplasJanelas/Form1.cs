@@ -6,6 +6,11 @@ namespace AplicativoComMultiplasJanelas
     public partial class Form1 : Form
     {
         private BindingList<Produto> Produtos = new BindingList<Produto>();
+        private BindingList<Cliente> Clientes = new BindingList<Cliente>();
+        private BindingList<Fornecedor> Fornecedores = new BindingList<Fornecedor>();
+        private BindingList<Venda> Vendas = new BindingList<Venda>();
+        private BindingList<Compra> Compras = new BindingList<Compra>();
+
         public Form1()
         {
             InitializeComponent();
@@ -35,11 +40,63 @@ namespace AplicativoComMultiplasJanelas
 
         private void buttonDeletarProduto_Click(object sender, EventArgs e)
         {
-            if (dataGridView1.DataSource == Produtos) 
+            if (dataGridView1.DataSource == Produtos)
             {
-                if (dataGridView1.SelectedRows.Count > 0) 
+                if (dataGridView1.SelectedRows.Count > 0)
                 {
                     Produtos.RemoveAt(dataGridView1.SelectedRows[0].Index);
+                }
+            }
+        }
+
+        private void buttonProdutos_Click(object sender, EventArgs e)
+        {
+            this.dataGridView1.DataSource = Produtos;
+        }
+        private void buttonFornecedores_Click(object sender, EventArgs e)
+        {
+            this.dataGridView1.DataSource = Fornecedores;
+        }
+        private void buttonClientes_Click(object sender, EventArgs e)
+        {
+            this.dataGridView1.DataSource = Clientes;
+        }
+        private void buttonCompras_Click(object sender, EventArgs e)
+        {
+            this.dataGridView1.DataSource = Compras;
+        }
+        private void buttonVendas_Click(object sender, EventArgs e)
+        {
+            this.dataGridView1.DataSource = Vendas;
+        }
+         
+        private void buttonAdicionarFornecedor_Click(object sender, EventArgs e)
+        {
+            FormNovoFornecedor fnf = new FormNovoFornecedor();
+            var resultado = fnf.ShowDialog();
+            if (resultado == DialogResult.OK) 
+            {
+                Fornecedor fornecedor = new Fornecedor();
+
+                if (Fornecedores.Count == 0) fornecedor.Id = 1;
+                else fornecedor.Id = Fornecedores.Max(x => x.Id) + 1;
+
+                fornecedor.NomeEmpresa = fnf.NomeEmpresa;
+                fornecedor.NomeContato = fnf.NomeContato;
+                fornecedor.Endereco = fnf.Endereco;
+                fornecedor.Email = fnf.Email;
+                fornecedor.Telefone = fnf.Telefone;
+                Fornecedores.Add(fornecedor);
+            }
+        }
+
+        private void buttonDeletarFornecedor_Click(object sender, EventArgs e)
+        {
+            if (dataGridView1.DataSource == Fornecedores) 
+            {
+                if (dataGridView1.SelectedRows.Count > 0)
+                {
+                    Fornecedores.RemoveAt(dataGridView1.SelectedRows[0].Index);
                 }
             }
         }
